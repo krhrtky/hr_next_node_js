@@ -1,3 +1,3 @@
-# My Awesome Book
+# HR Next
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+![icon](https://d33wubrfki0l68.cloudfront.net/3c18c558cbf9b510cf94a560907643799c699866/0d754/images/nodejs-logo.svg)
