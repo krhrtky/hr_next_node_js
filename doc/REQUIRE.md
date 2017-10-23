@@ -3,7 +3,6 @@
 * 設定を他のJSファイルに分けて読み込む
 
 ## 設定を外部のjsファイルから読み込む
-
   ```JavaScript
   'use strict'
   const conf = {
@@ -11,16 +10,15 @@
     port : 3000,
   };
 
-  module.exports = conf; // ---④
+  module.exports = conf; // ---4
   ```
 
 ## sample code:server.js
-
-  ``` JavaScript
+  ```JavaScript
   'use strict'
   const http = require('http');
   // ADD
-  const conf = require('./server-conf'); // ---⑤
+  const conf = require('./server-conf'); // ---5
 
   // CHANGE
   // const hostname = '127.0.0.1';
@@ -41,8 +39,8 @@
 
 ---
 
-④ 変数(オブジェクト)を別のjsファイルで利用できるようにする。
+ⅳ. 変数(オブジェクト)を別のjsファイルで利用できるようにする(関数も使える)。
   jsファイルにつき、1オブジェクト利用可能。
 
-⑤ 自分で作成したJSファイルの値をrequireで利用するには、相対パスで記述する。
+ⅴ. 自分で作成したJSファイルの値をrequireで利用するには、相対パスで記述する。
    拡張子「.js」は省略可能。
