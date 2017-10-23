@@ -16,12 +16,14 @@
     ### [Express](http://expressjs.com/ja/)
 
   * webアプリケーション・フレームワーク
+
   * rooting などを簡単に行える。
   * 互換するフレームワークとして、[Koa](https://github.com/koajs/koa) [Fastify](https://github.com/fastify/fastify) 等がある。
 
     ### [ESLint](https://eslint.org/)
 
   * JSを自分で決めたルールで静的にソースを解析する
+
   * チーム名である程度書き方のルールを決めることができる
   * 文字列はシングルクォーテーション/セミコロンのつけ忘れを許さない とかとか
 
@@ -36,6 +38,7 @@
     ### [babel](https://babeljs.io/)
 
   * コンパイラ
+
   * 新しい構文をサポートしていないブラウザでも動作するようにコードを変換してくれる
 
 
