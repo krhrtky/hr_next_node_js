@@ -2,7 +2,7 @@
 
 * [Readme](README.md)
 
-* [Readme](README.md)
+* [About](doc/ABOUT.md)
 
 * [How to use](doc/HOWTOUSE.md)
 
