@@ -2,9 +2,9 @@
 
 * [Readme](README.md)
 
-* [How to use](./doc/HOWTOUSE.md)
+* [Readme](README.md)
 
-* [About](doc/ABOUT.md)
+* [How to use](doc/HOWTOUSE.md)
 
 * [Server](doc/SERVER.md)
 
