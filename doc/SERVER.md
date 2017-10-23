@@ -4,7 +4,7 @@
   * 作成したディレクトリ内で以下のコマンドを実行
 
     ```sh
-    npm init -y
+    $ npm init -y
     ```
 
 ## WEBサーバーを立てる
@@ -12,18 +12,18 @@
 
   ```JavaScript
   'use strict'
-  const http = require('http'); // ---①
+  const http = require('http'); // ---1
 
   const hostname = '127.0.0.1';
   const port = 3000;
 
-  const server = http.createServer((req, res) => { // ---②
+  const server = http.createServer((req, res) => { // ---2
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
     res.end('Hello Node.js!\n');
   });
 
-  server.listen(port, hostname, () => { // ---③
+  server.listen(port, hostname, () => { // ---③3
     console.log(`Server running at http://${hostname}:${port}/`);
   });
   /**
@@ -42,20 +42,22 @@
 
 * 以下のコマンドを実行
 
-  `node server.js`
+		```sh
+		$ node server.js
+		```
 
 * ブラウザで( http://172.0.0.1:3000/ )にアクセス
 
 ---
 
-① `Core Modules`(Node.jsに標準で搭載されている機能群)の１つ
+1. `Core Modules`(Node.jsに標準で搭載されている機能群)の１つ
 
-  webサーバの構築用の機能
+	webサーバの構築用の機能
 
-  jsファイルの中が使用するときは、
+	jsファイルの中が使用するときは、
 
-  `const <moduleName> = require('<moduleName>');`
+	`const <moduleName> = require('<moduleName>');`
 
-②サーバの設定を作成
+1. サーバの設定を作成
 
-③サーバを起動
+1. サーバを起動

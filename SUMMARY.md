@@ -1,9 +1,15 @@
 # Summary
 
-* [README](README.md)
+* [Readme](README.md)
 
-* [ABOUT](doc/ABOUT.md)
+* [How to use](./doc/HOWTOUSE.md)
 
-* [SERVER](doc/SERVER.md)
+* [About](doc/ABOUT.md)
 
-* [REQUIRE](doc/REQUIRE.md)
+* [Server](doc/SERVER.md)
+
+* [npm](doc/NPM.md)
+
+* [require](doc/REQUIRE.md)
+
+* [Others](doc/OTHERS.md)
