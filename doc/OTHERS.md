@@ -42,9 +42,9 @@
 
   * npm でローカルにインストールしたライブラリやインストールせずにライブラリを使用する事ができる
 
-  ```sh
-  $ npx react-create-app react-app
-  ```
+    ```sh
+    $ npx react-create-app react-app
+    ```
 
 ## その他
 

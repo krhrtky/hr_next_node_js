@@ -23,7 +23,7 @@
     res.end('Hello Node.js!\n');
   });
 
-  server.listen(port, hostname, () => { // ---③3
+  server.listen(port, hostname, () => { // ---3
     console.log(`Server running at http://${hostname}:${port}/`);
   });
   /**
@@ -61,3 +61,5 @@
 1. サーバの設定を作成
 
 1. サーバを起動
+
+

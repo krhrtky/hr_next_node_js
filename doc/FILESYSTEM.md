@@ -39,8 +39,8 @@ server.listen(port, hostname, () => {
 ```
 ---
 
-ⅵ. fileSystemは、 `Core Modules` で `fs` で利用可能。
+6. fileSystemは、 `Core Modules` で `fs` で利用可能。
 
-ⅶ. ファイルが存在するか確認する。
+7. ファイルが存在するか確認する。
 
-ⅷ. ファイルを読み込む。
+8. ファイルを読み込む。
