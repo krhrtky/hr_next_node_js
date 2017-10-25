@@ -19,3 +19,11 @@
 
 * フロントの開発でも必要なツール
 * `React`, `Angular`を使ったアプリ開発もNode.jsは不可欠
+* クライアントで未実装な構文も対応している。(https://kangax.github.io/compat-table/es6/)
+
+## 余談
+* クライアントで実装しているAPIは、HTML5 Conference 2017で
+
+  WebDINO Japan(前Mozilla Japan)の浅井さんが公演していました。
+
+* https://www.youtube.com/watch?v=LErJeeryfx0
