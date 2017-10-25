@@ -3,6 +3,7 @@
 * 設定を他のJSファイルに分けて読み込む
 
 ## 設定を外部のjsファイルから読み込む
+* `server-conf.js`を作成する。
   ```JavaScript
   'use strict'
   const conf = {
@@ -10,15 +11,15 @@
     port : 3000,
   };
 
-  module.exports = conf; // ---4
+  module.exports = conf; // ---1
   ```
 
-## sample code:server.js
+## server.js を書き換える
   ```JavaScript
   'use strict'
   const http = require('http');
   // ADD
-  const conf = require('./server-conf'); // ---5
+  const conf = require('./server-conf'); // ---2
 
   // CHANGE
   // const hostname = '127.0.0.1';
